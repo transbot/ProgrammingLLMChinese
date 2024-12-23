@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////
+//
+// PRONTO: GPT-booking proof-of-concept
+// Copyright (c) Youbiquitous
+//
+// Author: Youbiquitous Team
+//
+
+
+
+{
+  "General": {
+    "ProjectName": "PRONTO-GPT",
+    "ApplicationName": "Conversational Programming",
+    "ApplicationDescription": "Proof-of-concept of using GPT for Conversational Programming",
+    "Version": "v0.0.1",
+    "BuildInfo": "March 31, 2024",
+    "Secrets": {
+      "SqlConnectionString": "data source=(local);Integrated Security=True;initial catalog=Pronto; TrustServerCertificate=true;",
+        "OpenAI": {
+            "ApiKey": "7cbbd87651ad4dc6a436999f1d7d2500", //use environment variables
+            "BaseUrl": "https://zhoujing.openai.azure.com/", //use environment variables
+            "DeploymentId": "testchatgpt", //your created model deployment name (i.e. GPT4)
+            // "EmbeddingDeploymentId": "testchatgpt" //your created embedding name (i.e. text-embedding-ada-002)
+        }
+    }
+  }
+}
